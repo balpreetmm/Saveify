@@ -1,0 +1,130 @@
+<html>
+
+<head>
+  <title> Saveify  </title>
+  <link rel="stylesheet" type="text/css" href="onCampusStyle.css">
+  <script src="main.js"> </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="mainTitle"> SAVEIFY </h1>
+  </div>
+
+<div class="containter">
+
+  <h1> On-Campus Questionnaire </h1>
+
+  <p> Please indicate your monthly expenditure on: </p>
+
+      <div class="box">
+        <p> Meal Plan (Monthly) </p> <input type="text" id="groceries"> </input>
+      </div>
+
+      <div class="box">
+        <p> School supplies </p> <input type="text" id="supplies"> </input>
+      </div>
+
+      <div class="box">
+        <p> Transportation (gas, car insurance, parking, maintenance) </p> <input type="text" id="transportation"> </input>
+      </div>
+
+      <div class="box">
+        <p> Personal care (clothing, haircuts, toiletries) </p> <input type="text" id="personal"> </input>
+      </div>
+
+      <div class="box">
+        <p> Entertainment (hobbies, exercise, recreation) </p> <input type="text" id="entertainment"> </input>
+      </div>
+
+      <div class="box">
+        <p> Extra-curricular Activities (conferences, school clubs)  </p> <input type="text" id="events"> </input>
+      </div>
+
+      <div class="box">
+        <p> Eating Out  </p> <input type="text" id="eating"> </input>
+      </div>
+
+      <div class="box">
+        <p> Other  </p> <input type="text" id="other"> </input>
+      </div>
+
+      <button onclick="calcData()" class="calcBtn btn1"> Submit </button>
+
+      <div class="infoContainer">
+
+        <div id="barGraph"> </div>
+
+        <div id="infoBox">
+
+          <h1 id="infoTitle"> </h1>
+
+          <div class="costBoxes">
+            <h2 id="mealTitle">  </h2>
+            <h3 id="mealPlanCost"> </h3>
+            <h3 id="mealPer"> </h3>
+            <h3 id="mealTip"> </h3>
+          </div>
+
+          <div class="costBoxes">
+            <h2 id="suppliesTitle">  </h2>
+            <h3 id="suppliesCost"> </h3>
+            <h3 id="suppliesPer"> </h3>
+            <h3 id="suppliesTip"> </h3>
+          </div>
+
+          <div class="costBoxes">
+            <h2 id="transportationTitle">  </h2>
+            <h3 id="transportationCost"> </h3>
+            <h3 id="transportationPer"> </h3>
+            <h3 id="transportationTip"> </h3>
+          </div>
+
+          <div class="costBoxes">
+            <h2 id="personalTitle">  </h2>
+            <h3 id="personalCost"> </h3>
+            <h3 id="personalPer"> </h3>
+            <h3 id="personalTip"> </h3>
+          </div>
+
+          <div class="costBoxes">
+            <h2 id="entertainmentTitle">  </h2>
+            <h3 id="entertainmentCost"> </h3>
+            <h3 id="entertainmentPer"> </h3>
+            <h3 id="entertainmentTip"> </h3>
+          </div>
+
+          <div class="costBoxes">
+            <h2 id="eventTitle">  </h2>
+            <h3 id="eventCost"> </h3>
+            <h3 id="eventPer"> </h3>
+            <h3 id="eventTip"> </h3>
+          </div>
+
+          <div class="costBoxes">
+            <h2 id="eatingTitle">  </h2>
+            <h3 id="eatingOutCost"> </h3>
+            <h3 id="eatingPer"> </h3>
+            <h3 id="eatingTip"> </h3>
+          </div>
+
+          <div class="costBoxes">
+            <h2 id="otherTitle">  </h2>
+            <h3 id="otherCost"> </h3>
+            <h3 id="otherPer"> </h3>
+          </div>
+
+        </div>
+
+      </div>
+
+</div>
+
+
+</body>
+
+</html>

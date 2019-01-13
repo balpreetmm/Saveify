@@ -1,0 +1,138 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  background-color: rgba(194,91,86);
+}
+
+/*  #525564 #74828F #96C0CE #BEB9B5 #C25B56 #FEF6EB */
+
+.header {
+  height: 100px;
+  background-color: white;
+  margin: auto;
+}
+
+.mainTitle {
+  letter-spacing: 20px;
+  color: black;
+  padding-top: 25px;
+}
+
+.container1 {
+  margin: auto;
+  width: 100%;
+  background-color: rgb(194,91,86)
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.btn {
+  background-color: #525564;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #C25B56;
+  box-shadow: 2px 2px 4px #722c2a;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+
+}
+
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.calcBtn {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: white;
+  background: transparent;
+  border: 2px solid #0099CC;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.btn1 {
+      background-color: white;
+      color: black;
+      border: 2px solid white;
+}
+
+.btn1:hover {
+     background-color: #008CBA;
+     color: white;
+     border-color: #008CBA;
+}
+
+input {
+  font-size: 15px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  font-family: inherit;
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 0;
+  cursor: text;
+}
+
+.infoContainer {
+  margin: auto;
+}
+
+#barGraph {
+  background-color: white;
+  margin: auto;
+}
+
+#infoBox {
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.costBoxes {
+  background-color: #525564;
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
