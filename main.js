@@ -1,5 +1,5 @@
 function calcData() {
-
+  document.getElementById( 'info' ).style.display = 'block';
   var mealPlanCosts = parseInt(document.getElementById("groceries").value);
   var suppliesCosts = parseInt(document.getElementById("supplies").value);
   var transportationCosts = parseInt(document.getElementById("transportation").value);
@@ -70,7 +70,7 @@ function calcData() {
   }
 
   else if (percentTransportation < averageTransportationPercent) {
-    transportationTip = "Congrats, you spend less on transportation than the average studentSince you spend less on transportation, you may want to consider planning trips to explore the city!"
+    transportationTip = "Congrats, you spend less on transportation than the average student. Since you spend less on transportation, you may want to consider planning trips to explore the city!"
   }
 
   //****************************************
@@ -146,7 +146,7 @@ function calcData() {
   document.getElementById("mealPer").innerHTML = "That's " + percentMeal + "% of your total spending.";
   document.getElementById("mealTip").innerHTML = mealTip;
 
-  document.getElementById("suppliesTitle").innerHTML = "Supplies Costs";
+  document.getElementById("suppliesTitle").innerHTML = "Supply Costs";
   document.getElementById("suppliesCost").innerHTML = "You spent $" + suppliesCosts + ".";
   document.getElementById("suppliesPer").innerHTML = "That's " + percentSupplies + "% of your total spending.";
   document.getElementById("suppliesTip").innerHTML = suppliesTip;
@@ -156,7 +156,7 @@ function calcData() {
   document.getElementById("transportationPer").innerHTML = "That's " + percentTransportation + "% of your total spending.";
   document.getElementById("transportationTip").innerHTML = transportationTip;
 
-  document.getElementById("personalTitle").innerHTML = "Personal Expenditures";
+  document.getElementById("personalTitle").innerHTML = "Personal Expenses";
   document.getElementById("personalCost").innerHTML = "You spent $" + personalCosts + ".";
   document.getElementById("personalPer").innerHTML = "That's " + percentPersonal+ "% of your total spending.";
   document.getElementById("personalTip").innerHTML = personalTip;

@@ -1,4 +1,7 @@
+
 function calcData() {
+
+  document.getElementById( 'info' ).style.display = 'block';
 
   var rentutilsCosts = parseInt(document.getElementById("rent").value);
   var mealPlanCosts = parseInt(document.getElementById("groceries").value);
@@ -58,7 +61,7 @@ function calcData() {
 
   //****************************************
 
-  mealTip = "Make sure budget your monthly spending appropriately so you don't run out  of money by the end of the year. Eating out is even more expensive, so try and spend less of you meal plan to make sure this does not happen."
+  mealTip = "Make sure budget your monthly spending appropriately so you do not run out  of money by the end of the year. Eating out is even more expensive, so try and spend less of you meal plan to make sure this does not happen."
 
   //****************************************
 
